@@ -1,0 +1,224 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* All the properties of the top section or home */
+#title{
+    background-color: #37383a;
+    color: white;
+    padding-bottom: 4%;
+}
+
+.container-fluid{
+    padding: 1% 15% 3% 15%;
+}
+
+.title-para{
+    margin-bottom: 30px;
+}
+h1{
+  
+   font-size: 3rem;
+   line-height: 1.2;
+}
+
+.navbar-toggler{
+    position: relative;
+    left:10%;
+}
+.navbar-nav{
+    position: relative;
+    left: 60%;
+}
+
+.navbar{
+    padding-left: 0 ;
+}
+
+span{
+    text-decoration: underline;
+}
+
+.row{
+    margin-top: 2%;
+   
+}
+
+.titlebtn{
+    margin:2% 2% 0 1%;
+}
+
+.profpic{
+    margin-top: 0.5rem;
+   
+}
+
+
+
+.nav-item{
+    padding: 0 6px;
+    font-size: 1rem;
+}
+
+/* home css ends here */
+
+/* middle section css */
+.col-padding{
+
+padding-bottom: 5%;
+}
+.learnings{
+    text-align: center;
+}
+.learning-title{
+    margin-bottom: 6%;
+    font-weight: 500;
+}
+.icon-cust{
+    width: 30%;
+}
+
+#middle{
+    margin-top: 5%;
+    padding: 2% 5% 5% 5%;
+}
+
+.fa-icon{
+    color:rgb(18, 16, 20);
+    margin-bottom:3%; 
+}
+.fa-icon:hover{
+    color: rgb(169, 160, 179);;
+    
+}
+
+h2{
+    font-weight: 600;
+}
+
+/* testimonal section */
+
+#testimonal{
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    background-color: #37383a;
+  
+}
+
+
+
+h3{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.testimonal-title{
+   padding: 3%;
+   font-weight: 500;
+  
+}
+
+.test-img{
+    width: 90px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+   height: 400px;
+   
+}
+
+@media (max-width:900px){
+    .carousel-item{
+     
+     height: 700px;
+       
+    }   
+}
+
+em{
+    display: inline-flex;
+}
+
+/* press */
+
+#press{
+  
+      font-family: 'Montserrat', sans-serif;
+      color: aliceblue;
+      padding-bottom: 3%;
+      text-align: center;
+      background-color: #37383a;
+      
+  }
+.contact-img{
+    width: 120px;
+    margin: 0px 20px 50px;
+}
+
+
+/* pricing */
+#pricing{
+    text-align: center;
+  
+}
+.card-cust{
+    text-align: left;
+}
+
+/* footer */
+
+#footer{
+    background-color: #37383a;
+    color:rgb(147, 149, 150);
+    padding: 5%;
+}
+
+.contact-me{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+
+
+.btn:hover{
+    background-color: rgb(75, 78, 72);
+
+}
+
+.footer-h3{
+    font-weight: 500;
+    padding-bottom: 2%;
+}
+
+.footer-h4{
+    padding-bottom: 2%;
+}
+
+.footer-btn{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.footer-link{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: rgb(147, 149, 150);
+    display: block;
+    text-align: left;
+}
+
+.footer-link:hover{
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+}
+
+.form-items{
+    width: 100%;
+}
